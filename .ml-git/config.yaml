@@ -1,7 +1,7 @@
 dataset:
-  git: ''
+  git: https://github.com/RaiffRamalho/mlgit-datasets.git
 labels:
-  git: ''
+  git: https://github.com/RaiffRamalho/mlgit-labels.git
 model:
   git: ''
 store:
@@ -9,4 +9,10 @@ store:
     mlgit-datasets:
       aws-credentials:
         profile: default
+      region: us-east-1
+  s3h:
+    br.edu.ufcg.virtus.hp.mlaas.versioning:
+      aws-credentials:
+        profile: default
+      endpoint-url: null
       region: us-east-1
