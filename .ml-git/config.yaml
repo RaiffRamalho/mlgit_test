@@ -1,0 +1,12 @@
+dataset:
+  git: ''
+labels:
+  git: ''
+model:
+  git: ''
+store:
+  s3:
+    mlgit-datasets:
+      aws-credentials:
+        profile: default
+      region: us-east-1
